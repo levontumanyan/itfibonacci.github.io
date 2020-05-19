@@ -40,6 +40,7 @@
 // // store the div inside a variable 
 
 var joke_here = document.getElementById("joke-here");
+var joke_api = document.getElementById("joke-api");
 
 fetch("https://joke3.p.rapidapi.com/v1/joke?nsfw=false", {
     "method": "GET",
@@ -52,7 +53,9 @@ fetch("https://joke3.p.rapidapi.com/v1/joke?nsfw=false", {
     .then(response => response.json())
     .then(data => {
         //Work with JSON data here
+        var joke_source = "Here is a joke from the Jokes API at rapidapi.com, Refresh the page to see another one. ";
         joke_here.innerHTML = data.content;
+        joke_api.innerHTML = joke_source;
     })
     .catch(err => {
         console.log(err);

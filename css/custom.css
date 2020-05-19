@@ -24,11 +24,11 @@ html {
 	width: 100%;
 }
 
-.container .six {
+.container #joke-api {
     background-color: beige   ;
 }
 
-#store-image {
+/* #store-image {
     height: 100%;
     width: 100%;
-}
+} */
