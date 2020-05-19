@@ -1,0 +1,34 @@
+html {
+    height: 100%;
+}
+
+.header {
+    margin-top: 5%;
+}
+
+
+@media only screen and (min-width: 700px) {
+    body {
+        height: 100%;
+        background-image: url(../images/second_try.svg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+.footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 170px;
+	width: 100%;
+}
+
+.container .six {
+    background-color: beige   ;
+}
+
+#store-image {
+    height: 100%;
+    width: 100%;
+}
