@@ -25,7 +25,16 @@ html {
 }
 
 .container #joke-api {
+    background-color: lightgoldenrodyellow;
+    opacity: 0.5;
+}
+
+.container #joke-here {
     background-color: beige   ;
+}
+
+.main {
+    margin-top: 10%;
 }
 
 /* #store-image {
