@@ -6,6 +6,10 @@ html {
     margin-top: 5%;
 }
 
+.main-content {
+    min-height: 75vh;
+}
+
 
 @media only screen and (min-width: 700px) {
     body {
@@ -17,11 +21,12 @@ html {
 }
 
 .footer {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 170px;
-	width: 100%;
+    border-top: 1px solid black;
+    max-height: 20vh;
+}
+
+.footer .container {
+    margin-top: 3%;
 }
 
 .container #joke-api {
@@ -30,7 +35,8 @@ html {
 }
 
 .container #joke-here {
-    background-color: beige   ;
+    border : 1px solid magenta;
+    background-color: beige;
 }
 
 .main {
