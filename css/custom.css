@@ -72,8 +72,8 @@ html {
 }
 
 .main-content img {
-    max-width: 2.25rem;
-    min-width: 2.25rem;
+    max-width: 100%;
+    max-height: 100%;
     width: 2.25rem;
     height: 2.25rem;
 }
