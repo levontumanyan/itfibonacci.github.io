@@ -14,12 +14,11 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .logo {
     border: 0.1rem black solid;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     border-radius: 30%;
 }
 
@@ -36,6 +35,11 @@ html {
     /* background-color:#54ff8a  ; */
     background: linear-gradient(352deg, #62b1ff, #1655f3);
 }
+.logo-cv:hover {
+    /* background-color:#54ff8a  ; */
+    background: linear-gradient(352deg, #EECDA3, #EF629F);
+}
+
 
 
 
