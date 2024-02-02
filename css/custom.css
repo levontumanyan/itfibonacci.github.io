@@ -7,7 +7,7 @@ html {
 }
 
 .main-content {
-    min-height: 75vh;
+    min-height: 60vh;
 }
 
 .logo-container {
@@ -21,7 +21,6 @@ html {
     padding: 1rem 1.5rem;
     border-radius: 30%;
 }
-
 
 .logo-home:hover {
     /* background-color:#54ff8a  ; */
@@ -39,9 +38,6 @@ html {
     /* background-color:#54ff8a  ; */
     background: linear-gradient(352deg, #EECDA3, #EF629F);
 }
-
-
-
 
 @media only screen and (min-width: 700px) {
     body {
@@ -81,9 +77,3 @@ html {
     width: 2.25rem;
     height: 2.25rem;
 }
-
-
-/* #store-image {
-    height: 100%;
-    width: 100%;
-} */
